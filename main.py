@@ -1,10 +1,15 @@
 #test file
 import time;
+import os;
+from modules import ch1_tuple_unpacking as ch1;
 def main():
+    print("Hello ", os.getlogin());
+    print("This executable is to run different tests that are relevant to the book Fluent Python");
+
     start_time = time.time();
 
-    
 
+    ch1.chapter_one();
 
 
 
@@ -22,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main();
-
